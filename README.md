@@ -1,6 +1,6 @@
-C# vs2017 + .net4.6
+ï»¿C# vs2017 + .net4.6
 
-opencvsharp dll ÏÂÔØ£ºhttps://github.com/shimat/opencvsharp/releases
+opencvsharp dll ä¸‹è½½ï¼šhttps://github.com/shimat/opencvsharp/releases
 
 
 ![](https://github.com/yuxianqiang/ImageMatting/blob/master/result.png?raw=true)
