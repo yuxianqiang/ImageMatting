@@ -22,11 +22,13 @@ namespace Matting
             img = Cv2.ImRead(@"Image\greenImage3.jpg");
             imgBack = Cv2.ImRead(@"Image\background.jpg");
             Cv2.CvtColor(img, hsv, ColorConversionCodes.BGR2HSV);
+            
+            ReadImage();
         }
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            ReadImage();
+            //ReadImage();
         }
 
         Mat img = new Mat();
