@@ -84,7 +84,7 @@ namespace Matting
 
                 for (int j = 0; j < cols; j++)
                 {
-                    if (byteMask[j/3] != 255)
+                    if (byteMask[j/3] < 128)
                     {
                         byteBack[j] = byteGreen[j];
                     }
