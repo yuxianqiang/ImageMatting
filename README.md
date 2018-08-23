@@ -1,4 +1,4 @@
-﻿C# vs2017 + .net4.6
+﻿C# vs2017 + .net4.6 + opencvsharp3.4.1
 
 opencvsharp dll 下载：https://github.com/shimat/opencvsharp/releases
 
