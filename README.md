@@ -1,4 +1,6 @@
 C# vs2017 + .net4.6
 
+opencvsharp dll œ¬‘ÿ£∫https://github.com/shimat/opencvsharp/releases
 
-![](https://github.com/yuxianqiang/CoreAudioApi/blob/master/Interface.png?raw=true)
+
+![](https://github.com/yuxianqiang/ImageMatting/blob/master/result.png?raw=true)
