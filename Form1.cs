@@ -71,8 +71,10 @@ namespace Matting
 
         unsafe void ConvolutionImage(Mat maskTemp, Mat imgGreen, Mat imgBackTemp)
         {
-            int cols = imgBackTemp.Cols* imgBackTemp.Channels();
-            int rows = imgBackTemp.Rows;
+            int cols = imgBackTemp.Cols < imgGreen.Cols ? 
+                       imgBackTemp.Cols * imgBackTemp.Channels() : 
+                       imgGreen.Cols * imgGreen.Channels();
+            int rows = imgBackTemp.Rows < imgGreen.Rows ? imgBackTemp.Rows : imgGreen.Rows;
 
             for (int i = 0; i < rows; i++)
             {
